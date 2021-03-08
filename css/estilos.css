@@ -1,0 +1,310 @@
+                @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-color: whitesmoke;
+                }
+                
+                #text-login {
+                    font-weight: 700;
+                    color: white;
+                }
+                
+                #login .container #login-row #login-column #login-box {
+                    margin-top: 50px;
+                    max-width: 600px;
+                    height: 470px;
+                    box-shadow: 3px 3px 3px 3px #343a40;
+                    border-radius: 3px;
+                }
+                
+                #sesion {
+                    font-weight: 700;
+                }
+                
+                #contenedor {
+                    background-color: white;
+                    border-radius: 30px;
+                }
+                
+                #jumbotron {
+                    height: 100%;
+                    background-color: whitesmoke;
+                    border-radius: 40px;
+                    padding: 2%;
+                    margin-top: 2%;
+                }
+                
+                #navbar {
+                    background-color: indigo;
+                }
+                
+                #a_login {
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                
+                #a_hito {
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                
+                #a_registro {
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                
+                #a_metrolegal {
+                    font-size: 30px;
+                    font-weight: 800;
+                }
+                
+                #btn_cerrar {
+                    float: right;
+                }
+                
+                #metrolegal {
+                    font-weight: 900;
+                    font-size: 50px;
+                    text-align: center;
+                    color: #007bff;
+                }
+                
+                #valores {
+                    font-weight: 900;
+                    font-size: 30px;
+                    text-align: center;
+                    color: #007bff;
+                }
+                
+                #los_valores {
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+                
+                #honestidad {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #007bff;
+                    ;
+                }
+                
+                #independencia {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #007bff;
+                    ;
+                }
+                
+                #transparencia {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #007bff;
+                    ;
+                }
+                
+                #confidencialidad {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #007bff;
+                    ;
+                }
+                
+                .jumbotron {
+                    height: 500px,
+                }
+                
+                #footer {
+                    height: 100px;
+                }
+                
+                #footer_span {
+                    font-size: 19px;
+                    font-weight: 900;
+                }
+                
+                #certificacion {
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: white;
+                }
+                
+                #row {
+                    width: 1110px;
+                    float: right;
+                    float: left;
+                }
+                
+                #organismo {
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: white;
+                }
+                
+                #row_organismo {
+                    width: 1110px;
+                    float: right;
+                    float: left;
+                }
+                
+                #informacion {
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: white;
+                }
+                
+                #row_informacion {
+                    width: 1110px;
+                    float: right;
+                    float: left;
+                }
+                
+                #instrumento {
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: white;
+                }
+                
+                #row_instrumento {
+                    width: 1110px;
+                    float: right;
+                    float: left;
+                }
+                
+                .card-img-top {
+                    height: 100% !important;
+                }
+                
+                .card-title {
+                    font-size: 25px;
+                    color: black;
+                    font-weight: 400;
+                }
+                
+                .form-control:focus {
+                    border-color: #FF0000;
+                    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6) !important;
+                }
+                
+                .section-1 {
+                    padding: 20vmin 0vmin;
+                    position: relative;
+                    top: -30px;
+                }
+                
+                .section-1 .row .col-md-6 .pray img {
+                    opacity: 0.8;
+                    width: 100%;
+                    border-radius: 0.2em;
+                }
+                
+                .section-1 .row .col-md-6:last-child {
+                    position: relative;
+                    width: 100%;
+                }
+                
+                .section-1 .row .col-md-6 .panel {
+                    position: absolute;
+                    top: 9vmin;
+                    left: -18vmin;
+                    border-radius: 3px;
+                    text-align: left;
+                    padding: 13vmin 5vmin 20vmin 10vmin;
+                    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+                    font-family: var(--Rubik);
+                    z-index: 1;
+                    color: white;
+                }
+                
+                .section-1 .row .col-md-6 .panel h1 {
+                    font-weight: bold;
+                    padding: 0.4em 0;
+                    font-size: 2em;
+                }
+                
+                .section-1 .row .col-md-6 .panel p {
+                    font-size: 0.9em;
+                    color: rgba(0, 0, 0, 0.5);
+                    color: white;
+                    font-weight: 500;
+                    font-size: medium;
+                    text-align: center;
+                }
+                
+                @media only screen and (max-width: 768px) {
+                    header .navbar-brand {
+                        padding-left: 1rem;
+                    }
+                    .section-1 .row .col-md-6 .panel {
+                        position: initial;
+                        width: initial;
+                        height: initial;
+                    }
+                    .section-2 .cover {
+                        background-position: -25vmin -10vmin;
+                    }
+                    .numbers .rect {
+                        width: 10rem;
+                        height: 8rem;
+                    }
+                    .numbers .rect h1 {
+                        font-size: 2rem;
+                    }
+                    .section-3 {
+                        height: inherit;
+                        padding: 10vmin !important;
+                    }
+                    .section-3 .row h1 {
+                        padding: 6vmin 4vmin;
+                    }
+                    .section-3 .platform .col-md-6 {
+                        text-align: center !important;
+                    }
+                    .section-3 .desktop i {
+                        font-size: 8vmin;
+                    }
+                    .section-4 .carousel-item {
+                        padding-left: 0.6rem;
+                    }
+                    footer .row .col-md-2 {
+                        margin-top: 8vmin;
+                    }
+                }
+                /* screen size 375px */
+                
+                @media only screen and (max-width: 375px) {
+                    .section-4 .card {
+                        width: 18em;
+                    }
+                }
+                
+                @media only screen and (max-width: 320px) {
+                    .section-4 .carousel-inner {
+                        margin-left: -4vmin;
+                    }
+                }
+                
+                #pie_pagin {
+                    margin-top: 65px !important;
+                }
+                
+                .informacion a {
+                    text-align: center!important;
+                    display: block!important;
+                }
+                /* @media (max-width: 1000px) {
+                    .informacion a {
+                        text-align: center;
+                        margin-left: -90px;
+                    }
+                } */
+                

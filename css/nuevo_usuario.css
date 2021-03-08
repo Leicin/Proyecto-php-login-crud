@@ -1,0 +1,204 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.navbar {
+  background-color: #d4dde5;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Champagne;
+  background-color: #e4ecef;
+
+}
+
+@font-face {
+
+  font-family: Champagne;
+  src: url(../Champagne.ttf);
+}
+
+@font-face {
+
+  font-family: Kardust;
+  src: url(../Kardust.otf);
+}
+
+
+#a_login {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#a_registro {
+  font-size: 22px;
+  font-weight: 70
+}
+
+#img1 {
+  border-radius: 150% !important;
+}
+
+.fa-users {
+  color: black;
+}
+
+
+.navbar a {
+  color: black !important;
+  font-weight: 400 !important;
+  font-family: Champagne !important;
+  font-size: 22px;
+}
+
+
+#hr-pro {
+  display: block;
+  margin-top: 0px !important;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+
+
+}
+
+.form-group .form-control {
+  padding-left: 2.375rem;
+}
+
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  background-color: #a0d9ed;
+  color: black;
+  border-radius: 12px;
+  border: 1px #a0d9ed solid;
+  padding: 9px;
+  box-shadow: 2px 5px #888888;
+  border: none;
+  font-size: 20px !important;
+  font-weight: 900;
+
+
+}
+
+.btn-file:hover {
+  background-color: #a0d9ed;
+  color: black;
+}
+
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background-color: white;
+  cursor: inherit;
+  display: block;
+
+}
+
+.reg {
+  background-color: #a0d9ed !important;
+  border-radius: 12px;
+  border: 1px #a0d9ed solid;
+  padding: 10px 25px;
+  box-shadow: 2px 5px #888888;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 20px;
+  display: block;
+  font-family: Champagne;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  #pie_pagin {
+    margin-top: 240%;
+  }
+}
+
+#tabla {
+  margin-top: 70px !important;
+}
+
+.fa-search {
+  position: absolute;
+  padding: 11px;
+  right: 60px;
+
+
+}
+
+
+
+#Navbar1 a {
+  margin-right: 10PX;
+  color: black !important;
+  border-bottom: 7px solid transparent;
+
+
+}
+
+#Navbar1 a:hover {
+
+  border-bottom: 5.5px solid #b11317;
+  
+}
+
+
+#Navbar2 a {
+  margin-right: 22PX;
+  color: black !important;
+  border-bottom: 9px solid transparent;
+ 
+}
+
+#Navbar2 a:hover {
+
+  border-left: 8.5px solid #b11317;
+}
+
+/* #usuarios a {
+  margin-top: 30px !important;
+} */
+
+#usuarios i {
+  margin-top: 34px !important;
+}
+
+#colu {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Champagne;
+}
+
+
